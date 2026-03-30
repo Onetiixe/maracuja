@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maracuja Informatique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <header>
+    <div class="header-container">
+      <div class="brand">
+        <img src="image/dc87aebb-24bb-41b7-9106-e3f1741aed5b.png" alt="Logo Maracuja Informatique" class="logo">
+        <div class="brand-text">
+          <h1>Maracuja Informatique</h1>
+          <p>Montage PC • Réparation • Optimisation • Sites Web</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#carousel-section">Réalisations</a>
+        <a href="#process">Méthode</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    
+
+    <div class="hero-grid">
+      <div class="hero-left reveal">
+        <h2>
+          Un service pro
+          <span>accessible à tous</span>
+        </h2>
+        <p>
+          Que vous ayez besoin d’un PC simple, d’un PC gamer, d’une réparation,
+          d’un nettoyage, d’une optimisation ou d’un site internet, Maracuja Informatique
+          vous propose des solutions adaptées à votre besoin et à votre budget.
+        </p>
+
+        <div class="hero-buttons">
+          <button onclick="scrollToContact()">Demander un devis</button>
+          <a href="#services" class="secondary-btn">Voir les services</a>
+        </div>
+
+        <div class="hero-features">
+          <div class="hero-feature">
+            <span>💰</span>
+            <p>Tous budgets</p>
+          </div>
+          <div class="hero-feature">
+            <span>🛠️</span>
+            <p>Sur mesure</p>
+          </div>
+          <div class="hero-feature">
+            <span>⚡</span>
+            <p>Fiable & rapide</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="hero-card main-hero-card glass-card">
+          <div class="hero-card-top">
+            <span class="status-dot"></span>
+            <span>Solutions adaptées à chaque besoin</span>
+          </div>
+          <img src="image/897d442c-bd1a-4119-a221-97fc1c639781.png" alt="PC Gamer haut de gamme">
+          <div class="hero-card-content">
+            <h3>PC, réparation & services web</h3>
+            <p>De la solution simple au projet plus complet, nous vous conseillons selon votre usage réel.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats reveal">
+    <div class="stat-box">
+      <h3 class="counter" data-target="100">0</h3>
+      <p>% d’implication sur chaque projet</p>
+    </div>
+    <div class="stat-box">
+      <h3 class="counter" data-target="5">0</h3>
+      <p>services principaux proposés</p>
+    </div>
+    <div class="stat-box">
+      <h3 class="counter" data-target="1">0</h3>
+      <p>objectif : une solution claire et adaptée</p>
+    </div>
+  </section>
+
+  <section id="services" class="reveal">
+    <div class="section-heading">
+      <h2>Des prestations utiles, modernes et accessibles</h2>
+      <p class="section-description">
+        Nous proposons des services pensés aussi bien pour les particuliers que pour les professionnels,
+        avec des solutions simples ou plus complètes selon votre besoin.
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="card glass-card">
+        <div class="card-icon">🎮</div>
+        <h3>Montage PC Gamer</h3>
+        <p>Des configurations adaptées à votre budget, pour jouer dans de bonnes conditions sans payer inutilement trop cher.</p>
+      </div>
+
+      <div class="card glass-card">
+        <div class="card-icon">💼</div>
+        <h3>PC Bureautique</h3>
+        <p>Des ordinateurs fiables et rapides pour internet, travail, études, gestion et usage quotidien.</p>
+      </div>
+
+      <div class="card glass-card">
+        <div class="card-icon">🌐</div>
+        <h3>Création de site internet</h3>
+        <p>Des sites propres, modernes et professionnels pour mettre en valeur votre activité, même avec un budget raisonnable.</p>
+      </div>
+
+      <div class="card glass-card">
+        <div class="card-icon">🛠️</div>
+        <h3>Réparation PC</h3>
+        <p>Diagnostic, dépannage, remplacement de pièces et remise en état de votre matériel.</p>
+      </div>
+
+      <div class="card glass-card">
+        <div class="card-icon">🧼</div>
+        <h3>Nettoyage</h3>
+        <p>Améliorez la rapidité et la stabilité de votre ordinateur avec un entretien régulier et complet.</p>
+      </div>
+
+      <div class="card glass-card">
+        <div class="card-icon">🚀</div>
+        <h3>Optimisation & Overclocking</h3>
+        <p>Overclocking et optimisation de vos composants pour maximiser les performances de votre système.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="carousel-section" class="carousel-section reveal">
+    <div class="section-heading">
+      <h2>Nos services en image</h2>
+      <p class="section-description">
+        Cliquez sur une carte de service pour afficher l’image correspondante.
+      </p>
+    </div>
+
+    <section class="carousel">
+      <div class="carousel-container">
+
+        <div class="slide active">
+          <img src="image/897d442c-bd1a-4119-a221-97fc1c639781.png" alt="Montage PC Gamer">
+          <div class="slide-overlay"></div>
+          <div class="slide-title">Montage PC Gamer</div>
+        </div>
+
+        <div class="slide">
+          <img src="image/b7bc6cda-d857-4445-b6ea-5e9503722f9f.png" alt="PC Bureautique">
+          <div class="slide-overlay"></div>
+          <div class="slide-title">PC Bureautique</div>
+        </div>
+
+        <div class="slide">
+          <img src="image/b77510b7-3797-41f6-8c1b-3f78e56c892c.png" alt="Création de site internet">
+          <div class="slide-overlay"></div>
+          <div class="slide-title">Création de site internet</div>
+        </div>
+
+        <div class="slide">
+          <img src="image/99ad8b1e-8b7e-4631-8a8b-64f3ba0a95a0.png" alt="Réparation PC">
+          <div class="slide-overlay"></div>
+          <div class="slide-title">Réparation PC</div>
+        </div>
+
+        <div class="slide">
+          <img src="image/f2f8543b-cd68-4598-b86f-3d1f9cb15a23.png" alt="Nettoyage et optimisation">
+          <div class="slide-overlay"></div>
+          <div class="slide-title">Nettoyage & optimisation</div>
+        </div>
+
+      </div>
+
+      <button class="prev" onclick="prevSlide()">❮</button>
+      <button class="next" onclick="nextSlide()">❯</button>
+
+      <div class="carousel-dots">
+        <span class="dot active-dot" onclick="showSlide(0)"></span>
+        <span class="dot" onclick="showSlide(1)"></span>
+        <span class="dot" onclick="showSlide(2)"></span>
+        <span class="dot" onclick="showSlide(3)"></span>
+        <span class="dot" onclick="showSlide(4)"></span>
+      </div>
+    </section>
+  </section>
+
+  <section id="process" class="reveal">
+    <div class="section-heading">
+      <h2>Un accompagnement simple et clair</h2>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-box">
+        <div class="process-number">01</div>
+        <h3>Échange</h3>
+        <p>Nous regardons votre besoin, votre usage et le budget que vous souhaitez consacrer à votre projet.</p>
+      </div>
+
+      <div class="process-box">
+        <div class="process-number">02</div>
+        <h3>Conseil</h3>
+        <p>Nous vous orientons vers la solution la plus cohérente, sans vous pousser vers du matériel ou des options inutiles.</p>
+      </div>
+
+      <div class="process-box">
+        <div class="process-number">03</div>
+        <h3>Réalisation</h3>
+        <p>Montage, réparation, optimisation ou création de site avec sérieux et soin.</p>
+      </div>
+
+      <div class="process-box">
+        <div class="process-number">04</div>
+        <h3>Livraison</h3>
+        <p>Vous obtenez une solution prête à l’emploi, claire, propre et adaptée à vos attentes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="premium-banner reveal">
+    <div class="premium-banner-content">
+      <h2>Un rendu professionnel, quel que soit votre projet</h2>
+      <p>
+        Chez Maracuja Informatique, nous pensons qu’un service sérieux et une belle présentation
+        ne doivent pas être réservés aux gros budgets. Notre objectif est de proposer des solutions
+        utiles, propres et accessibles au plus grand nombre.
+      </p>
+    </div>
+  </section>
+
+  <section id="advantages" class="reveal">
+    <div class="section-heading">
+      <h2>Une approche simple, honnête et moderne</h2>
+    </div>
+
+    <div class="advantages-grid">
+      <div class="advantage-box glass-card">
+        <h3>Conseil adapté</h3>
+        <p>Nous proposons une solution selon votre besoin réel, sans chercher à vous faire dépenser plus que nécessaire.</p>
+      </div>
+
+      <div class="advantage-box glass-card">
+        <h3>Présentation soignée</h3>
+        <p>Nous accordons de l’importance au rendu visuel, à la propreté du travail et à la qualité finale.</p>
+      </div>
+
+      <div class="advantage-box glass-card">
+        <h3>Accessible à tous</h3>
+        <p>Petit besoin ponctuel, réparation simple, PC sur mesure ou site vitrine : chacun peut trouver une solution adaptée.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section reveal">
+    <h2>Un besoin informatique ?</h2>
+    <p>
+      Que ce soit pour un petit dépannage, un PC sur mesure ou la création d’un site internet,
+      nous vous aidons à trouver la bonne solution.
+    </p>
+    <button onclick="scrollToContact()">Parler de mon projet</button>
+  </section>
+
+  <section id="contact" class="reveal">
+    <div class="section-heading">
+      <h2>Nous contacter</h2>
+      <p class="section-description">
+        Vous pouvez nous joindre directement par téléphone ou par email pour discuter de vos besoins.
+      </p>
+    </div>
+
+    <div class="contact-wrapper contact-only">
+      <div class="contact-card glass-card">
+        <div class="contact-card-header">
+          <span class="contact-icon">📞</span>
+          <h3>Téléphone</h3>
+        </div>
+        <a href="tel:+33123456789" class="contact-link">06 14 54 67 68</a>
+        <p class="contact-availability">Lundi - Vendredi: 9h - 18h30 et samedi: 9h - 12h30</p>
+      </div>
+
+      <div class="contact-card glass-card">
+        <div class="contact-card-header">
+          <span class="contact-icon">📧</span>
+          <h3>Email</h3>
+        </div>
+        <a href="mailto:maracuja.informatique@gmail.com" class="contact-link">maracuja.informatique@gmail.com</a>
+        <p class="contact-availability">Réponse sous 24h</p>
+      </div>
+    </div>
+
+  <div style="flex: 1;"></div>
+
+  <footer>
+    <p>© 2026 Maracuja Informatique — Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
