@@ -901,6 +901,14 @@ footer {
 
   nav {
     justify-content: center;
+    gap: 12px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-size: 15px;
+    white-space: nowrap;
   }
 
   .hero-left h2 {
@@ -922,6 +930,10 @@ footer {
   .slide-title {
     font-size: 26px;
   }
+
+  .contact-wrapper.contact-only {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 700px) {
@@ -940,11 +952,25 @@ footer {
   .hero-left p,
   .section-description,
   .premium-banner p,
-  .cta-section p {
+  .cta-section p,
+  .contact-availability,
+  .info-line p {
     font-size: 16px;
   }
 
-  .process-grid {
+  .hero-left {
+    text-align: center;
+  }
+
+  .hero-left p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .process-grid,
+  .advantages-grid,
+  .contact-wrapper,
+  .grid {
     grid-template-columns: 1fr;
   }
 
@@ -978,5 +1004,21 @@ footer {
   form button {
     width: 100%;
     max-width: 320px;
+  }
+
+  .hero-card-content h3 {
+    font-size: 24px;
+  }
+
+  .contact-card,
+  .contact-info,
+  form,
+  .premium-banner-content,
+  .cta-section {
+    padding: 24px;
+  }
+
+  .section-heading {
+    padding: 0 8px;
   }
 }
